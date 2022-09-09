@@ -2,9 +2,9 @@
 #include<stdlib.h>
 #include<time.h>
 /*
- *main - returns zero while statement is true
- *Description: using the rand function
- *we generate random numbers
+ *main - Entry point
+ *Description: print random numbers
+ *Return: Always return 0 (success)
 */
 int main(void)
 {
