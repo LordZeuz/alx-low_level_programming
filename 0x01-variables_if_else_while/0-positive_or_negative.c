@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include<stdlib.h>
 #include<time.h>
-
+/*
+ *main - returns zero while statement is true
+ *Description: using the rand function
+ *we generate random numbers
+*/
 int main(void)
 {
 	int n;
