@@ -4,7 +4,7 @@
 /*
  *main - Entry point
  *Description: print random numbers
- *Return: Always return 0 (success)
+ *Return: Always 0 (success)
 */
 int main(void)
 {
