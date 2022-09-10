@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 /**
  * main -Entry point
@@ -13,5 +14,6 @@ int main(void)
 	{
 	printf("%d", a);
 	}
+	printf("\n");
 	return (0);
 }
