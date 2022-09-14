@@ -13,7 +13,7 @@ int _isalpha(int c)
 
 	while (lower <= 'z' || capital <= 'Z')
 	{
-	if (c == lower || c == cap)
+	if (c == lower || c == capital)
 	return (1)
 	lower++;
 	capital++;
