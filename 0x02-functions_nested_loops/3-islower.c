@@ -13,7 +13,7 @@ int _islower(int c)
 
 	while (letter <= 'z')
 	{
-	if (letter == int c)
+	if (letter == c)
 	{
 	return (1);
 	}
