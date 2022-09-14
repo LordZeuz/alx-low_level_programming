@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ * _islower - Entry point
+ * Description: checks is a character in lowercase
+ * @c: the integer value it receives
+ * Return: 1 if true. 0 if false.
+ */
+
+int _islower(int c)
+{
+	int letter = 'a';
+
+	while (letter <= 'z')
+	{
+	if (letter == int c)
+	{
+	return (1);
+	}
+	}
+	letter++;
+	return (0);
+}
