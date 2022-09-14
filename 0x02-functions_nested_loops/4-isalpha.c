@@ -11,7 +11,7 @@ int _isalpha(int c)
 {
 	char lower = 'a', capital = 'A';
 
-	while (low <= 'z' || cap <= 'Z')
+	while (lower <= 'z' || capital <= 'Z')
 	{
 	if (c == lower || c == cap)
 	return (1)
