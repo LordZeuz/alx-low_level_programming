@@ -11,9 +11,9 @@ int _isupper(int c)
 {
 	int letter = 'A';
 
-	for (letter = 'A'; letter <= 'Z'; letter++)
+	while (letter <= 'Z')
 	{
-		if (int c == letter)
+		if (letter == c)
 		{
 		return (1);
 		}
