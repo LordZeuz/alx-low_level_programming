@@ -9,15 +9,12 @@
 
 int _isdigit(int c)
 {
-	int digit = 0;
-
-	while (digit <= 9)
-	{
-	if (digit == c)
+	if (c >= 48 && c < 58)
 	{
 	return (1);
 	}
-	digit++;
-	}
+	else
+	{
 	return (0);
+	}
 }
