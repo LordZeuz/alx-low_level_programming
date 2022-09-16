@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main  - the entry point
+ * main  - fizzbuzz
  *
- * Return: 0 if the program run with success
+ * Return: 0
  */
 int main(void)
 {
