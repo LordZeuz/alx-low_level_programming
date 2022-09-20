@@ -1,0 +1,10 @@
+#include "main.h"
+/**
+ * _puts - posts to stdout
+ * @str: paramameter for _puts
+ */
+
+void _puts(char *str)
+{
+
+}
