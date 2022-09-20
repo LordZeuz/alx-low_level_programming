@@ -6,11 +6,16 @@
 
 void print_rev(char *s)
 {
-	int count = s;
+	int i = 0; /*i checks for end of string */
+	int j; /*j = i - 1 is the last character before \0 */
 
-	while (s[count] != 0)
+	while (s[i] != '\0')
 	{
-	_putchar('s');
-	count--;
+	i++;
 	}
+	for (j = i - 1; j >= 0; j--)
+	{
+	_putchar(s[j]);
+	}
+	_putchar('\n');
 }
