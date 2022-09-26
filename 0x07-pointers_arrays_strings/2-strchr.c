@@ -9,13 +9,13 @@
 
 char *_strchr(char *s, char c)
 {
-	while (*s != '\0') /*loop through string*/
+	int i;
+
+	for (i = 0; s[i] >= '\0'; i++)
 	{
-	if (*s == c) /*if character c is found in string */
-	{
-	return (s); /*return s*/
+	if (s[i] == c)
+	return (s + i);
 	}
-	s++;
-	}
-	return (0);/*return null value if c is not in string*/
+
+	return ('\0');
 }
