@@ -11,8 +11,10 @@
 
 int main(int argc, char *argv[])
 {
-	int loop, total, change, aux = 0;
+	int loop, total, change, aux;
 	int coins[] = {25, 10, 5, 2, 1};
+
+	loop = total = change = aux = 0;
 
 	if (argc != 2)
 	{
