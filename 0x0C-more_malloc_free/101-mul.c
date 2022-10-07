@@ -1,0 +1,30 @@
+#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
+/**
+ * main -  a program that multiplies two positive numbers
+ * @argc: the number of arguments
+ * @argv: an array of strings containing each argument
+ * Return: returns 0 (success)
+ */
+
+int main(int argc, char *argv[])
+{
+	int a, b, mul;
+
+	a = argv[1];
+	b = argv[2];
+
+	if (argc != 3 || !(isdigit(a)) || !(isdigit(b)))
+	{
+	printf("error");
+	exit(98);
+	}
+	else
+	{
+	mul = a * b;
+	printf("%d\n", mul);
+	}
+	return (0);
+}
