@@ -5,7 +5,7 @@
  * @name: the name to set
  * @age: age to set
  * @owner: owner to set
- *
+ * Return: nothing
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
