@@ -1,1 +1,1 @@
-Learning the basics of c
+More on pointers
